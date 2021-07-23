@@ -8,4 +8,5 @@ for row in range(2, sheet.max_row+1):
     new_cell= sheet.cell(row,4)
     new_cell.value=updated_price
 wb.save('transactions2.xlsx')
+print("new value is generated")
 
